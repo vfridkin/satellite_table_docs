@@ -64,11 +64,11 @@ Identifiers can only be seen in the 'Details' view. At least one factor is alway
 
 To select identifier columns, click on '...more' to reveal additional controls.
 
-<img src="satellites_control_panel_more.PNG" width="200">
+<img src="satellites_control_panel_more.PNG" width="100%">
 
 Click insider the Identifiers selector and select the identifier columns you want added to the table.
 
-<img src="satellites_select_identifier.PNG" width="200">
+<img src="satellites_select_identifier.PNG" width="50%">
 
 Drag and drop the selected identifiers to reorder the columns in the table.
 
@@ -76,11 +76,11 @@ Drag and drop the selected identifiers to reorder the columns in the table.
 
 Selecting factors is similar to identifiers, and columns can be reordered with drag and drop too.
 
-<img src="satellites_select_factor.PNG" width="200">
+<img src="satellites_select_factor.PNG" width="50%">
 
 There are many factors to choose so scroll down and you'll find convenience commands that select all, inverse and clear the selection.
 
-<img src="satellites_select_factor_command.PNG" width="200">
+<img src="satellites_select_factor_command.PNG" width="50%">
 
 Clearing will leave one factor remaining - it is a requirement of the table.
 
@@ -88,7 +88,7 @@ Clearing will leave one factor remaining - it is a requirement of the table.
 
 Measures are selected similar to factors, columns reordered with drag and drop and convenience commands when you scroll down.
 
-<img src="satellites_select_measure.PNG" width="200">
+<img src="satellites_select_measure.PNG" width="50%">
 
 _Bonus feature_:
 When a selected measure is double clicked, it replaces the measure in the slider.
