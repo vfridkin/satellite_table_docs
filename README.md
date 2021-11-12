@@ -1,2 +1,2 @@
-# satellite_table_docs
+# Satellite table docs
 Documentation for the satellites table app
