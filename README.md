@@ -91,21 +91,58 @@ Measures are selected similar to factors, columns reordered with drag and drop a
 
 <img src="satellites_select_measure.PNG" width="50%">
 
-_Bonus feature_:
 When a selected measure is double clicked, it replaces the measure in the slider.
+
+![](satellites_dblclick_measures.gif)
 
 ## Filter
 
-### Different factors
+Factors and measures can be filtered.
 
-### Same factor
+### Factors
+
+Double click on a table cell in a factor column. It sends the filter to the factor filter selector.
+
+Filters are removed with the keyboard delete key. They are saved in filter choices for later use - for example if you wanted to...
+
+### Filter a factor column on more than one value
+
+To have the same factor column filtered multiple times we'll have an example.
+
+Let's say we want to view only military and commercial satellites.
+
+1. filter on military
+2. remove the filter, it will be stored for later
+3. filter on civilian
+4. add back the military filter
 
 ### Measures
 
-## Choose a statistic
+The measure appearing in the slider label can be filtered by moving the slider knob. The slider is animated leading to some cool effects when combined with cell bars.
+
+## Choose a measure statistic
+
+There are four measure statistics to choose from:
+
+- minimum
+- average
+- maximum
+- standard deviation (measure of spread)
+
+When showing standard deviation for dates, the unit of measure changes to days.
 
 ## Sort
 
+Sort by clicking on the headers, shift-click to sort by multiple columns. This is standard reactable behaviour.
+
+Saving the sort order on changes to the table is a custom feature of the app.
+
 ## Column descriptions
 
+Hover over column headers to reveal descriptions.
+
 ## Cell bars
+
+Control which measure columns have cell bars using the additional '...more' control panel.
+
+Cell bars implementation is a custom feature of the app in order to improve rendering speed.
