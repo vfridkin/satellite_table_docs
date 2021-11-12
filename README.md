@@ -74,7 +74,21 @@ Drag and drop the selected identifiers to reorder the columns in the table.
 
 ### Factors
 
+Selecting factors is similar to identifiers, and columns can be reordered with drag and drop too.
+![](satellites_select_factor.PNG)
+
+There are many factors to choose so scroll down and you'll find convenience commands that select all, inverse and clear the selection.
+![](satellites_select_factor_command.PNG)
+
+Clearing will leave one factor remaining - it is a requirement of the table.
+
 ### Measures
+
+Measures are selected similar to factors, columns reordered with drag and drop and convenience commands when you scroll down.
+![](satellites_select_measure.PNG)
+
+_Bonus feature_:
+When a selected measure is double clicked, it replaces the measure in the slider.
 
 ## Filter
 
