@@ -103,6 +103,8 @@ Factors and measures can be filtered.
 
 Double click on a table cell in a factor column. It sends the filter to the factor filter selector.
 
+![](satellites_factor_filter.gif)
+
 Filters are removed with the keyboard delete key. They are saved in filter choices for later use - for example if you wanted to...
 
 ### Filter a factor column on more than one value
@@ -119,6 +121,8 @@ Let's say we want to view only military and commercial satellites.
 ### Measures
 
 The measure appearing in the slider label can be filtered by moving the slider knob. The slider is animated leading to some cool effects when combined with cell bars.
+
+![](satellites_country_race.gif)
 
 ## Choose a measure statistic
 
@@ -141,8 +145,12 @@ Saving the sort order on changes to the table is a custom feature of the app.
 
 Hover over column headers to reveal descriptions.
 
+<img src="satellites_header_definition.PNG" width="75%">
+
 ## Cell bars
 
 Control which measure columns have cell bars using the additional '...more' control panel.
+
+![](satellites_cell_bars.gif)
 
 Cell bars implementation is a custom feature of the app in order to improve rendering speed.
