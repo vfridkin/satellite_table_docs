@@ -51,6 +51,7 @@ The summary view does not contain identifiers. The details view does not contain
 ## Show controls and save changes
 
 The 'sun' switch hides/shows the concealable controls.
+![](sun_reveal_control_panel.gif)
 
 Eight circles (the 'planets') store eight sets of table views including summary/details selection, selected columns, filters, measure statistic and cell bar choices.
 
@@ -62,7 +63,7 @@ Identifiers can only be seen in the 'Details' view. At least one factor is alway
 
 ### Identifiers
 
-To select identifier columns, click on '...more' to reveal additional controls.
+To select identifier columns, click on '...more' (bottom right corner of controls) to reveal additional controls.
 
 <img src="satellites_control_panel_more.PNG" width="100%">
 
