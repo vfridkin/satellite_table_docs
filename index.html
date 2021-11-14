@@ -2,9 +2,14 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link href="bootstrap-toc.css" rel="stylesheet" />
     <title>Satellites Guide</title>
   </head>
-  <body class="vscode-body vscode-light">
+  <body class="vscode-body vscode-light" data-spy="scroll" data-target="#toc">
+    <nav id="toc" data-spy="affix" data-toggle="toc"></nav>
+    <h2 id="top" style="visibility: hidden">Top</h2>
     <h1 id="satellites-guide">Satellites Guide</h1>
     <p>
       Satellites is an interactive table app for analysing satellites that are
@@ -192,6 +197,17 @@
     <h2 id="column-descriptions">Column descriptions</h2>
     <p>Hover over column headers to reveal descriptions.</p>
     <img src="satellites_header_definition.PNG" width="600px" />
+    <h2 id="info-box">Info box</h2>
+    <p>
+      Click on identifiers to view comments, links to sources and a comparison
+      to other satellites.
+    </p>
+    <p><img src="satellites_info_box.gif" alt="" width="800px" /></p>
+    <p>
+      Select different measures to compare the selected satellite to all the
+      satellites.
+    </p>
+
     <h2 id="cell-bars">Cell bars</h2>
     <p>
       Control which measure columns have cell bars using the additional
@@ -203,4 +219,7 @@
       improve rendering speed.
     </p>
   </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <script src="bootstrap-toc.js"></script>
 </html>
